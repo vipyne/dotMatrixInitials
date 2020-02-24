@@ -1,6 +1,6 @@
 (function(window, document, undefined) {
 /////////////////////////////
-var script = document.getElementsByTagName('script')[0];
+var script = document.getElementById('dot-matrix');
 var initials = script.getAttribute('initials');
 
 var canvasWidth = 435;
